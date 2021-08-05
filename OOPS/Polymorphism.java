@@ -8,7 +8,6 @@ interface Flyable {
         System.out.println("From Bird");
     }
     public void run(){}
-
 }
 class Airoplane implements Flyable {
     public void fly() {
